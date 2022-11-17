@@ -3,7 +3,7 @@ import Slide from "./Slide";
 import data from "../data";
 
 const Slider = () => {
-  const [feedback, setFeedback] = useState(data);
+  const [feedback] = useState(data);
   const [active, setActive] = useState(0);
 
   useEffect(() => {
